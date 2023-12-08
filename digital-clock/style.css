@@ -1,0 +1,48 @@
+body{
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.cont{
+    height: 70%;
+    width: 90%;
+    background-color: #323131;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cont .right{
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+    /* background-color: aqua; */
+    background-size: cover;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRudo0lKltqiDslgxhA_n2mVwjvInDrVflAiz2rccEfQiQPFP5uqTKreJ0oT1ZLC1QE3g&usqp=CAU);
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color: aliceblue;
+}
+
+.clock{
+    z-index: 10;
+    
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+    
+}
